@@ -1,30 +1,51 @@
-# 💻 React Global Counter (Context + useReducer)
+# 🔁 React Global Counter with Context + useReducer
 
-This is a simple global counter app built using React Context API and useReducer. It demonstrates scalable state management for React applications.
+This is a simple global counter app built with **React Context API** and **useReducer**. It demonstrates scalable global state management without external libraries like Redux.
+
+> ✅ Part of my [React Learning Journey](https://luckaty.hashnode.dev) – Day 7
+
+
 
 ## 📦 Features
 
-- Global state using `Context`
-- Clean reducer logic with `useReducer`
-- Reusable components (`Counter`, `GlobalProvider`)
+- Global state using `Context API`
+- Centralized reducer logic with `useReducer`
+- Lightweight and beginner-friendly
+- Clean and reusable structure
 
-## 📁 Project Structure
+
+
+## 🧱 Project Structure
 
 src/
-├── App.jsx
-├── Counter.js
-├── GlobalState.js
-└── main.jsx
+│
+├── GlobalState.js # Context + Reducer
+├── Counter.js # Main counter component
+└── App.js # Root app using GlobalProvider
 
 
-## 🚀 How to Run
+
+
+## 🛠️ Getting Started
+
+git clone https://github.com/luckaty/react-global-counter.git
+cd react-global-counter
 npm install
-npm run dev
+npm start
+
 
 🧠 What I Learned
 
-    useReducer for structured state logic
+    Using useReducer for complex state logic
 
-    Context to provide and consume global data
+    Sharing global state cleanly with Context
 
-    Easier alternative to Redux for small apps
+    Structuring apps for scalability
+
+📅 Part of My Journey
+
+This project is Day 7 of my React Learning Blog Series. Follow along!
+📄 License
+
+MIT — for educational use.
+
