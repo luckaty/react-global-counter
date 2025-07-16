@@ -45,6 +45,7 @@ npm start
 📅 Part of My Journey
 
 This project is Day 7 of my React Learning Blog Series. Follow along!
+
 📄 License
 
 MIT — for educational use.
