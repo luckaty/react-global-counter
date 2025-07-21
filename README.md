@@ -29,8 +29,11 @@ src/
 ## 🛠️ Getting Started
 
 git clone https://github.com/luckaty/react-global-counter.git
+
 cd react-global-counter
+
 npm install
+
 npm start
 
 
